@@ -1,0 +1,78 @@
+body {
+  background: black;
+}
+
+#logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#logo path:nth-child(1){
+stroke-dasharray: 656.5435180664062px;
+stroke-dashoffset: 656.5435180664062px;
+animation: line-animate 2s ease forwards;
+}
+
+#logo path:nth-child(2){
+stroke-dasharray: 259.61651611328125px;
+stroke-dashoffset: 259.61651611328125px;
+animation: line-animate 2s ease forwards 0.3s;
+}
+#logo path:nth-child(3){
+  stroke-dasharray: 355.1114501953125px;
+  stroke-dashoffset: 355.1114501953125px;
+  animation: line-animate 2s ease forwards 0.6s;
+}
+#logo path:nth-child(4){
+  stroke-dasharray: 559.6177368164062px;
+  stroke-dashoffset: 559.6177368164062px;
+  animation: line-animate 2s ease forwards 0.9s;
+}
+#logo path:nth-child(5){
+  stroke-dasharray: 259.6167907714844px;
+  stroke-dashoffset: 259.6167907714844px;
+  animation: line-animate 2s ease forwards 1.2s;
+}
+#logo path:nth-child(6){
+  stroke-dasharray: 233.1576690673828px;
+  stroke-dashoffset: 233.1576690673828px;
+  animation: line-animate 2s ease forwards 1.5s;
+}
+#logo path:nth-child(7){
+  stroke-dasharray: 496.0379638671875px;
+  stroke-dashoffset: 496.0379638671875px;
+  animation: line-animate 2s ease forwards 1.8s;
+}
+#logo path:nth-child(8){
+  stroke-dasharray: 231.8294219970703px;
+  stroke-dashoffset: 231.8294219970703px;
+  animation: line-animate 2s ease forwards 2.1s;
+}
+#logo path:nth-child(9){
+  stroke-dasharray: 225.13345336914062px;
+  stroke-dashoffset: 225.13345336914062px;
+  animation: line-animate 2s ease forwards 2.4s;
+}
+#logo path:nth-child(10){
+  stroke-dasharray: 315.9394226074219px;
+  stroke-dashoffset: 315.9394226074219px;
+  animation: line-animate 2s ease forwards 2.7s;
+}
+#logo path:nth-child(11){
+  stroke-dasharray: 355.1120910644531px;
+  stroke-dashoffset: 355.1120910644531px;
+  animation: line-animate 2s ease forwards 3.0s;
+}
+#logo path:nth-child(12){
+  stroke-dasharray: 259.616943359375px;
+  stroke-dashoffset: 259.616943359375px;
+  animation: line-animate 2s ease forwards 3.3s;
+}
+
+@keyframes line-animate {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

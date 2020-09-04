@@ -1,8 +1,14 @@
 
+let logo = document.querySelectorAll('#logo path');
+for(let i=0; i<logo.length; i++){
+  console.log(`letter ${i} is ${logo[i].getTotalLength()}`);
+}
+
 function App (){
   return (
     <React.Fragment>
       <Nav/>
+
       <br/>
       <br/>
       <br/>
@@ -11,7 +17,7 @@ function App (){
       <br/>
       <br/>
       <br/>
-      <Footer/>
+
     </React.Fragment>
   )
 }
