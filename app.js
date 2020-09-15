@@ -44,9 +44,9 @@ function Banner (){
 function Nav (){
   return(
       <ul className="navbar">
-        <li><a href="https://github.com/gustylocuras" target="_blank">Books</a></li>
-        <li><a href="https://www.linkedin.com/in/agustinalvarezescalante/" target="_blank">Home</a></li>
-        <li><a href="#!">About</a></li>
+        <li><a className="nav-item" href="https://github.com/gustylocuras" target="_blank">Books</a></li>
+        <li><a className="nav-item" href="https://www.linkedin.com/in/agustinalvarezescalante/" target="_blank">Home</a></li>
+        <li><a className="nav-item" href="#!">About</a></li>
       </ul>
 
   )

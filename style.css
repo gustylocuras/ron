@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
 body {
-  background: red;
+  background: black;
 }
 * {
   border: 1px solid white;
@@ -14,15 +16,24 @@ body {
 .navbar {
   height: 40px;
   width: 90%;
-  display: flex;
-  align-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 4% 0 4% 0;
+
+}
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
 }
 
 li {
   list-style: none;
-  display: flex;
-  align-items: center;
+  text-align: center;
 }
+
+
 
 #logo {
 
