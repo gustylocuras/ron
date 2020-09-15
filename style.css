@@ -3,9 +3,9 @@
 body {
   background: black;
 }
-* {
+/* * {
   border: 1px solid white;
-}
+} */
 
 .container {
   display: flex;
@@ -26,6 +26,14 @@ body {
   text-decoration: none;
   font-family: 'Dancing Script', cursive;
   font-size: 2em;
+  margin: 1%;
+  padding: 2%;
+}
+.nav-item:hover{
+  background: rgba(255,255,255,.5);
+  box-shadow: 0px 0px 5px 10px rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.5);
+  
 }
 
 li {
