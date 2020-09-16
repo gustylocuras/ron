@@ -1,51 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-body {
-  background: black;
-}
-/* * {
-  border: 1px solid white;
-} */
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.navbar {
-  height: 40px;
-  width: 90%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin: 4% 0 4% 0;
-
-}
-.nav-item {
-  color: white;
-  text-decoration: none;
-  font-family: 'Dancing Script', cursive;
-  font-size: 2em;
-  margin: 1%;
-  padding: 2%;
-}
-.nav-item:hover{
-  background: rgba(255,255,255,.5);
-  box-shadow: 0px 0px 5px 10px rgba(255,255,255,.5);
-  border-color: rgba(255,255,255,.5);
-  
-}
-
-li {
-  list-style: none;
-  text-align: center;
-}
-
-
-
 #logo {
-
-  animation: fill 0.5s ease forwards 3.5s;
+  animation: fill 2s ease forwards 3s;
 }
 
 #logo path:nth-child(1){
@@ -123,4 +79,61 @@ animation: line-animate 2s ease forwards 0.3s;
   to{
     fill: ghostwhite;
   }
+}
+
+@media (max-width: 600px) {
+  #logo {
+    width: 90%;
+
+  }
+
+
+
+}
+
+#logo {
+  width: 100%;
+
+}
+
+body {
+  background: black;
+}
+/* * {
+  border: 1px solid white;
+} */
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  height: 40px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 4% 0 4% 0;
+
+}
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+  margin: 1%;
+  padding: 1%;
+}
+.nav-item:hover{
+  background: rgba(255,255,255,.5);
+  box-shadow: 0px 0px 5px 5px rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.5);
+
+}
+
+li {
+  list-style: none;
+  text-align: center;
 }
