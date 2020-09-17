@@ -87,23 +87,16 @@ animation: line-animate 2s ease forwards 0.3s;
     width: 100%;
   }
 
-
-
   #logo {
-
     padding: 1%;
     margin: auto;
-
-
   }
-
-
 
   .nav-item {
     color: white;
     text-decoration: none;
     font-family: 'Dancing Script', cursive;
-    font-size: 1em;
+    font-size: 12px;
     margin: auto;
 
   }
@@ -136,9 +129,9 @@ animation: line-animate 2s ease forwards 0.3s;
 }
 
 
-* {
+/* * {
   border: 1px solid white;
-}
+} */
 
 
 .container {
@@ -163,14 +156,23 @@ animation: line-animate 2s ease forwards 0.3s;
   color: white;
   text-decoration: none;
   font-family: 'Dancing Script', cursive;
-  font-size: 2em;
+  font-size: 1.8em;
   margin-left: auto;
   padding: 2%;
+  background-image: linear-gradient(ghostwhite, ghostwhite), linear-gradient(black, black);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
 }
+
+
+
 .nav-item:hover{
-  background: rgba(255,255,255,.5);
+  /* background: rgba(255,255,255,.5);
   box-shadow: 0px 0px 5px 5px rgba(255,255,255,.5);
-  border-color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.5); */
+  background-size: 100% 5px, auto;
 
 }
 li {
