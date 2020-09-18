@@ -8,7 +8,7 @@ function App (){
   return (
     <div className="container">
     <div className="top">
-      <Banner/>
+      <Banner className="banner"/>
       <Nav/>
     </div>
     <Main/>
@@ -59,7 +59,12 @@ function Nav (){
 function Main (){
   return(
     <div className="main">
+      <div className="novel">
+        <a href="https://www.amazon.com/Thornes-Hazards-Kentucky-Reporters-Trafficking-ebook/dp/B08GXXGGBW" target="_blank"><img id="novel-cover" src="/assets/cover.jpg"/></a>
+      </div>
+      <div className="bio">
 
+      </div>
     </div>
   )
 }

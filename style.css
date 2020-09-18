@@ -101,12 +101,6 @@ animation: line-animate 2s ease forwards 0.3s;
 
   }
 
-
-  .main {
-    background: white;
-  }
-
-
 }
 /* END OF MEDIA*/
 
@@ -117,6 +111,8 @@ animation: line-animate 2s ease forwards 0.3s;
   width: 100%;
   margin: auto;
 }
+
+
 
 #logo {
   width: 90%;
@@ -144,11 +140,12 @@ animation: line-animate 2s ease forwards 0.3s;
 
 .navbar {
   height: 40px;
-  width: 90%;
+  width: 98%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: auto;
   padding: 1%;
+  background: rgb(30,32,38);
 
 
 }
@@ -156,10 +153,10 @@ animation: line-animate 2s ease forwards 0.3s;
   color: white;
   text-decoration: none;
   font-family: 'Dancing Script', cursive;
-  font-size: 1.8em;
+  font-size: 1.7em;
   margin-left: auto;
   padding: 2%;
-  background-image: linear-gradient(ghostwhite, ghostwhite), linear-gradient(black, black);
+  background-image: linear-gradient(ghostwhite, ghostwhite), linear-gradient(rgb(30,32,38), rgb(30,32,38));
   background-size: 0 5px, auto;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -175,6 +172,26 @@ animation: line-animate 2s ease forwards 0.3s;
   background-size: 100% 5px, auto;
 
 }
+
+.main {
+  background: ghostwhite;
+
+}
+
+.novel{
+  width: 65%;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#novel-cover{
+  width: 100%;
+}
+#novel-cover:hover{
+  box-shadow: 5px 5px 2px  rgba(30,32,38,.5);
+}
+
 li {
   list-style: none;
   text-align: center;
