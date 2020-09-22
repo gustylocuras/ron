@@ -70,7 +70,8 @@ function Main (){
 
       </div>
       <div className="bio">
-
+        <img id="ron" src="assets/ron.jpg"/>
+        <div className="biography"> As a historian Formisano had a long career writing books on American society and politics. Lately he turned attention to books about The Tea Party, and unflinching critiques of economic inequality and a corrupt permanent political class in Plutocracy in America (2015) and American Oligarchy (2017). Having entered serious muckraking territory, he now seeks a larger audience by writing fiction.</div>
       </div>
     </div>
   )
