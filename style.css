@@ -101,6 +101,28 @@ animation: line-animate 2s ease forwards 0.3s;
 
   }
 
+  /* #review-box{
+    width: 100%;
+  }
+
+  .novel {
+    width: 100%;
+  } */
+
+  #review-box{
+    width: 90%;
+    border: 1px solid grey;
+    margin: 3%;
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 2px  rgba(30,32,38,.5);
+    
+
+  }
+
 }
 /* END OF MEDIA*/
 
@@ -175,6 +197,7 @@ animation: line-animate 2s ease forwards 0.3s;
 
 .main {
   background: ghostwhite;
+  width: 100%;
 
 }
 
@@ -183,31 +206,26 @@ animation: line-animate 2s ease forwards 0.3s;
   flex-direction: column;
   align-content: space-around;
   align-items: center;
-  width: 40%;
+  width: 90%;
   margin: auto;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
 #novel-cover{
-  width: 60%;
+  width: 100%;
 }
 #novel-cover:hover{
   box-shadow: 5px 5px 2px  rgba(30,32,38,.5);
 }
 
 #review-box{
-  border: 1px solid grey;
-  margin: 3%;
-  padding: 4%;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  box-shadow: 5px 5px 2px  rgba(30,32,38,.5);
-  background: rgba(192,96,161,.2);
-
 }
+
+
 #quote {
   width: 30%;
   border-radius: 50%;
@@ -218,12 +236,7 @@ animation: line-animate 2s ease forwards 0.3s;
   text-align: center;
   margin: 2% 1%;
 }
-.author-pic {
-  width: 40%;
-  border-radius: 50%;
-  margin: 2%;
 
-}
 
 .signature {
   font-style: italic;
