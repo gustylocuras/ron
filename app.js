@@ -60,7 +60,7 @@ function Main (){
   return(
     <div className="main">
       <div className="novel">
-      <a href="https://www.amazon.com/Thornes-Hazards-Kentucky-Reporters-Trafficking-ebook/dp/B08GXXGGBW" target="_blank"><img id="novel-cover" src="/assets/cover.jpg"/></a>
+      <a id="cover" href="https://www.amazon.com/Thornes-Hazards-Kentucky-Reporters-Trafficking-ebook/dp/B08GXXGGBW" target="_blank"><img id="novel-cover" src="/assets/cover.jpg"/></a>
       <div id="review-box">
         <img id="quote" src="assets/quotes.png"/>
         <div id="novel-review">With Thorne’s Hazards: A Kentucky Reporte to rural horse farmer’s Fight Against Drug Trafficking Ron Formisano has fashioned a dizzyingly effective thriller. The novel traces Clay Hawthorne (just call me Thorne) peeling back layers of corruption involved in Kentucky’s opioid/heroin distribution from student crash pads to rural horse farms to senatorial chambers. The revelations come lickety-split as the novel spirals through several hair-raising crescendos as Thorne threads his way among mob thugs, special forces vets, wily politicians, and beguiling seductresses. The journey is mesmerizing and by the end it’s clear a daring investigative journalist has arrived as a new American hero of crime novels.</div>
