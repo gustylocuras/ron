@@ -77,9 +77,10 @@ function Main (){
         <div className="book">
         <div className="praise">
         <img id="quote" src="assets/quotes.png"/>
-        American Oligarchy: The Permanent Political Class
+        <div className="comment">American Oligarchy: The Permanent Political Class
           “A terrific, honest, bracing, book. It reminds me of the great muckraking journalists of the last century, telling a portrait of power through individual stories…. It is a story of class, or self-delusion, and of greed masked with public service.”
           Zephyr Teachout
+          </div>
         </div>
         <img className="book-img" src="https://m.media-amazon.com/images/I/51DasN8MxdL.jpg"/>
         </div>
@@ -87,15 +88,16 @@ function Main (){
         <div className="book">
         <div className="praise">
         <img id="quote" src="assets/quotes.png"/>
-        The Great Lobster War
+        <div className="comment">The Great Lobster War
 
 “Ron Formisano’s The Great Lobster War deserves to be the locally centered non-fiction hit of the summer. With a pleasing economy of words, he recounts the power struggle between lobstermen and wholesalers that culminated in federal court in 1958. Blending history with flashes of colorful biography, the book proves enjoyable and accurate.”
+      </div>
       <img id="portland" src="https://www.pressherald.com/wp-content/themes/mainetoday-pressherald//assets/images/pph-logo.png"/>
         </div>
         <div className="praise">
         <img id="quote" src="assets/quotes.png"/>
-        “His account of the ‘war’ between the lobstermen and the dealers is written with the skill and detachment of a historian, as well as, and more important, a feeling for the people and a love of the place of an (almost) native.”
-
+        <div className="comment">“His account of the ‘war’ between the lobstermen and the dealers is written with the skill and detachment of a historian, as well as, and more important, a feeling for the people and a love of the place of an (almost) native.”
+        </div>
           <img id="boston-globe" src="https://cdn.freebiesupply.com/logos/large/2x/the-boston-globe-logo-png-transparent.png"/>
         </div>
         <img className="book-img" src="https://images-na.ssl-images-amazon.com/images/I/51+e6tgThQL._SX325_BO1,204,203,200_.jpg"/>
@@ -104,16 +106,17 @@ function Main (){
         <div className="book">
         <div className="praise">
         <img id="quote" src="assets/quotes.png"/>
-        The Tea Party: A Brief History
+        <div className="comment">The Tea Party: A Brief History
 
 “Ron Formisano dons a fine pair of historical lenses to read the tea leaves of the reactionary populism that has become an undeniable political force in 21st-century America. This is a lucid and intelligently constructed primer on the coalition of Americans longing and lobbying for (far too) simple answers to complicated questions. He gets it just right.”
 
       Ellen Goodman
+      </div>
         </div>
         <div className="praise">
         <img id="quote" src="assets/quotes.png"/>
-        …providing even-handed perspective on and clarifying misconceptions about America’s recent political phenomenon…The author makes valuable clarifications… His most trenchant observation might have emerged from a Pirandello play: ‘its partisans and critics alike, as if reading tea leaves, often see in it what they wish to see.’”
-
+        <div className="comment">…providing even-handed perspective on and clarifying misconceptions about America’s recent political phenomenon…The author makes valuable clarifications… His most trenchant observation might have emerged from a Pirandello play: ‘its partisans and critics alike, as if reading tea leaves, often see in it what they wish to see.’”
+        </div>
           <img id="publishers" src="https://lv7ms1pq6dm2sea8j1mrajzw-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/publishersweekly-logo.png"/>
         </div>
         <img className="book-img" src="https://img.thriftbooks.com/api/images/l/fccfb288e83e382673552a56da526d75e2368fc4.jpg"/>
