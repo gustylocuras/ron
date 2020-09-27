@@ -291,6 +291,41 @@ animation: line-animate 2s ease forwards 0.3s;
 .biography{
   margin: 2%;
   text-align: center;
+  width: 60%;
+}
+
+.more-books{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.book{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+}
+
+.book-img{
+  margin: 2%;
+}
+
+.praise {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#boston-globe, #portland, #publishers{
+  width: 30%;
+  margin: 2%;
 }
 
 li {
