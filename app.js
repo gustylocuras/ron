@@ -67,8 +67,7 @@ function Main (){
           spirals through several hair-raising crescendos as Thorne threads his way
           among mob thugs, special forces vets, wily politicians, and a beguiling
           seductress. The journey is mesmerizing.
-          John Zeugner, author of “The Japan Quartet” (four linked novels)
-          and four other books of novellas and stories
+          
         </div>
 
           <div className="signature">John Zeugner, author of “The Japan Quartet” (four linked novels) and four other books of novellas and stories.</div>
