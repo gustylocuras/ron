@@ -1,8 +1,5 @@
 
-let logo = document.querySelectorAll('#logo path');
-for(let i=0; i<logo.length; i++){
-  console.log(`letter ${i} is ${logo[i].getTotalLength()}`);
-}
+
 
 function App (){
   return (
@@ -12,11 +9,7 @@ function App (){
       <Nav/>
     </div>
     <Main/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+    <Footer/>
 
     </div>
   )
@@ -47,10 +40,10 @@ function Banner (){
 function Nav (){
   return(
       <ul className="navbar">
-        <li><a className="nav-item" href="https://github.com/gustylocuras" target="_blank">Home</a></li>
-        <li><a className="nav-item" href="https://www.linkedin.com/in/agustinalvarezescalante/" target="_blank">About</a></li>
-        <li><a className="nav-item" href="#!">Books</a></li>
-        <li><a className="nav-item" href="#!">Contact</a></li>
+        <li><a className="nav-item" href="#logo">Home</a></li>
+        <li><a className="nav-item" href='#ron-bio'>About</a></li>
+        <li><a className="nav-item" href="#other-books">Books</a></li>
+        <li><a className="nav-item" href="#twitter">Contact</a></li>
       </ul>
 
   )
@@ -69,20 +62,20 @@ function Main (){
       </div>
 
       </div>
-      <div className="bio">
+      <div id="ron-bio" className="bio">
         <img id="ron" src="assets/ron.jpg"/>
         <div className="biography"> As a historian Formisano had a long career writing books on American society and politics. Lately he turned attention to books about The Tea Party, and unflinching critiques of economic inequality and a corrupt permanent political class in Plutocracy in America (2015) and American Oligarchy (2017). Having entered serious muckraking territory, he now seeks a larger audience by writing fiction.</div>
       </div>
-      <div className="more-books">
+      <div id="other-books" className="more-books">
         <div className="book">
         <div className="praise">
         <img id="quote" src="assets/quotes.png"/>
         <div className="comment">American Oligarchy: The Permanent Political Class
-          “A terrific, honest, bracing, book. It reminds me of the great muckraking journalists of the last century, telling a portrait of power through individual stories…. It is a story of class, or self-delusion, and of greed masked with public service.”
-          Zephyr Teachout
+          A terrific, honest, bracing, book. It reminds me of the great muckraking journalists of the last century, telling a portrait of power through individual stories…. It is a story of class, or self-delusion, and of greed masked with public service.
+          <div className="signature">Zephyr Teachout</div>
           </div>
         </div>
-        <img className="book-img" src="https://m.media-amazon.com/images/I/51DasN8MxdL.jpg"/>
+        <a className="book-img" href="https://www.amazon.com/American-Oligarchy-Permanent-Political-Class/dp/0252082826" target="_blank"><img className="other-book-cover" src="https://m.media-amazon.com/images/I/51DasN8MxdL.jpg"/></a>
         </div>
 
         <div className="book">
@@ -90,17 +83,17 @@ function Main (){
         <img id="quote" src="assets/quotes.png"/>
         <div className="comment">The Great Lobster War
 
-“Ron Formisano’s The Great Lobster War deserves to be the locally centered non-fiction hit of the summer. With a pleasing economy of words, he recounts the power struggle between lobstermen and wholesalers that culminated in federal court in 1958. Blending history with flashes of colorful biography, the book proves enjoyable and accurate.”
+“Ron Formisano’s The Great Lobster War deserves to be the locally centered non-fiction hit of the summer. With a pleasing economy of words, he recounts the power struggle between lobstermen and wholesalers that culminated in federal court in 1958. Blending history with flashes of colorful biography, the book proves enjoyable and accurate.
       </div>
       <img id="portland" src="https://www.pressherald.com/wp-content/themes/mainetoday-pressherald//assets/images/pph-logo.png"/>
         </div>
         <div className="praise">
         <img id="quote" src="assets/quotes.png"/>
-        <div className="comment">“His account of the ‘war’ between the lobstermen and the dealers is written with the skill and detachment of a historian, as well as, and more important, a feeling for the people and a love of the place of an (almost) native.”
+        <div className="comment">His account of the ‘war’ between the lobstermen and the dealers is written with the skill and detachment of a historian, as well as, and more important, a feeling for the people and a love of the place of an (almost) native.
         </div>
           <img id="boston-globe" src="https://cdn.freebiesupply.com/logos/large/2x/the-boston-globe-logo-png-transparent.png"/>
         </div>
-        <img className="book-img" src="https://images-na.ssl-images-amazon.com/images/I/51+e6tgThQL._SX325_BO1,204,203,200_.jpg"/>
+        <a className="book-img" href="https://www.amazon.com/Great-Lobster-War-Ron-Formisano/dp/155849071X" target="_blank"><img className="other-book-cover" src="https://images-na.ssl-images-amazon.com/images/I/51+e6tgThQL._SX325_BO1,204,203,200_.jpg"/></a>
         </div>
 
         <div className="book">
@@ -108,18 +101,18 @@ function Main (){
         <img id="quote" src="assets/quotes.png"/>
         <div className="comment">The Tea Party: A Brief History
 
-“Ron Formisano dons a fine pair of historical lenses to read the tea leaves of the reactionary populism that has become an undeniable political force in 21st-century America. This is a lucid and intelligently constructed primer on the coalition of Americans longing and lobbying for (far too) simple answers to complicated questions. He gets it just right.”
+Ron Formisano dons a fine pair of historical lenses to read the tea leaves of the reactionary populism that has become an undeniable political force in 21st-century America. This is a lucid and intelligently constructed primer on the coalition of Americans longing and lobbying for (far too) simple answers to complicated questions. He gets it just right.
 
-      Ellen Goodman
+      <div className="signature">Ellen Goodman</div>
       </div>
         </div>
         <div className="praise">
         <img id="quote" src="assets/quotes.png"/>
-        <div className="comment">…providing even-handed perspective on and clarifying misconceptions about America’s recent political phenomenon…The author makes valuable clarifications… His most trenchant observation might have emerged from a Pirandello play: ‘its partisans and critics alike, as if reading tea leaves, often see in it what they wish to see.’”
+        <div className="comment">…providing even-handed perspective on and clarifying misconceptions about America’s recent political phenomenon…The author makes valuable clarifications… His most trenchant observation might have emerged from a Pirandello play: ‘its partisans and critics alike, as if reading tea leaves, often see in it what they wish to see.
         </div>
           <img id="publishers" src="https://lv7ms1pq6dm2sea8j1mrajzw-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/publishersweekly-logo.png"/>
         </div>
-        <img className="book-img" src="https://img.thriftbooks.com/api/images/l/fccfb288e83e382673552a56da526d75e2368fc4.jpg"/>
+        <a className="book-img" href="https://www.amazon.com/Tea-Party-Brief-History-ebook/dp/B00796DB8Q" target="_blank"><img className="other-book-cover" src="https://img.thriftbooks.com/api/images/l/fccfb288e83e382673552a56da526d75e2368fc4.jpg"/></a>
         </div>
       </div>
     </div>
@@ -128,31 +121,11 @@ function Main (){
 
 function Footer (){
   return(
-    <footer className="page-footer light-green darken-1">
-          <div className="container">
-            <div className="row">
-              <div className="col l6 s12">
-                <h5 className="white-text">Footer Content</h5>
-                <p className="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-              </div>
-              <div className="col l4 offset-l2 s12">
-                <h5 className="white-text">Links</h5>
-                <ul>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="footer-copyright">
-            <div className="container">
-            © 2014 Copyright Text
-            <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
-          </div>
-        </footer>
+    <footer className="footer">
+    <a id="twitter" href="https://twitter.com/mcrkfictn" target="_blank"> <img id="bird"  src="https://p10cdn4static.sharpschool.com/UserFiles/Servers/Server_208743/Image/twitter2.png"/></a>
+      <div id="copyright"><img src="https://lh3.googleusercontent.com/proxy/EiK1qwJYnDqz-J8djoL9t55MlT-qrWocJko6u8aMqBurfgNmpsjuX8IaaPbDwGP6CyDexwEAf3QS5wwNnXUPDhKmeFmdZNvljfM8Le6tnYnbjPrNTI_mXzeV80lQ3xE3sfzeU5MN"/>Copyright All Rights Reserved</div>
+
+    </footer>
   )
 }
 
