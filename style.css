@@ -87,6 +87,11 @@ animation: line-animate 2s ease forwards 0.3s;
     width: 100%;
   }
 
+  .main{
+    margin: 0;
+    padding: 0;
+  }
+
   #logo {
     padding: 1%;
     margin: auto;
@@ -110,9 +115,9 @@ animation: line-animate 2s ease forwards 0.3s;
   } */
 
   #review-box{
-    width: 80%;
+    width: 100%;
     border: 1px solid grey;
-    margin: 3%;
+    margin: 0;
     padding: 4%;
     display: flex;
     flex-wrap: wrap;
@@ -122,13 +127,29 @@ animation: line-animate 2s ease forwards 0.3s;
 
 
   }
-
+#cover{
+  margin: 0;
+}
   #ron{
     width: 50%;
     border-radius: 10%;
     margin: 3%;
     box-shadow: 5px 5px 2px  rgba(30,32,38,.5);
 
+  }
+
+  #other-books{
+    margin: 0;
+    width: 100%;
+  }
+  #ron-bio{
+    margin: 0;
+    width: 100%;
+  }
+  .novel{
+    margin: 0;
+    width: 100%;
+    padding: 0;
   }
 
   .bio{
