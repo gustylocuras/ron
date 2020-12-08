@@ -53,7 +53,7 @@ function Main (){
   return(
     <div className="main">
       <div className="novel">
-      <a id="cover" href="https://www.amazon.com/Thornes-Hazards-Kentucky-Reporters-Trafficking-ebook/dp/B08GXXGGBW" target="_blank"><img id="novel-cover" src="/assets/cover.jpg"/></a>
+      <a id="cover" href=" https://store.bookbaby.com/bookshop/book/index.aspx?bookURL=httpsronformisanocom&fbclid=IwAR1X0I42ioLCk1qJBDvTWAF37WyqRvkn_uRksCbYlCHU0w-LB-As2O1PhxA" target="_blank"><img id="novel-cover" src="/assets/cover.jpg"/></a>
       <div id="review-box">
         <img id="quote" src="assets/quotes.png"/>
         <h3>Advance Praise for Thorne’s Hazards</h3>
@@ -67,7 +67,7 @@ function Main (){
           spirals through several hair-raising crescendos as Thorne threads his way
           among mob thugs, special forces vets, wily politicians, and a beguiling
           seductress. The journey is mesmerizing.
-          
+
         </div>
 
           <div className="signature">John Zeugner, author of “The Japan Quartet” (four linked novels) and four other books of novellas and stories.</div>
@@ -75,7 +75,7 @@ function Main (){
 
       </div>
       <div id="ron-bio" className="bio">
-        <img id="ron" src="assets/ron.jpg"/>
+
         <div className="biography"> As a historian Formisano had a long career writing books on American society and politics. Lately he turned attention to books about The Tea Party, and unflinching critiques of economic inequality and a corrupt permanent political class in Plutocracy in America (2015) and American Oligarchy (2017). Having entered serious muckraking territory, he now seeks a larger audience by writing fiction.</div>
       </div>
       <div id="other-books" className="more-books">
